@@ -1,0 +1,23 @@
+# dependencies
+node_modules/
+
+# CDK
+packages/infra/cdk.out/
+cdk.out/
+*.cdk.staging/
+
+# TypeScript build output (src は .ts のみ管理)
+dist/
+*.tsbuildinfo
+packages/*/dist/
+
+# env / secrets
+.env
+.env.*
+!.env.example
+
+# OS / editor
+.DS_Store
+*.log
+.idea/
+.vscode/
