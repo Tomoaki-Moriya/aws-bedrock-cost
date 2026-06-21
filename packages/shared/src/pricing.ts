@@ -27,6 +27,8 @@ export const MODEL_PRICING: Record<string, ModelPrice> = {
   // US クロスリージョン推論プロファイル例
   "us.anthropic.claude-3-5-sonnet-20241022-v2:0": { inputPer1k: 0.003, outputPer1k: 0.015 },
   "us.anthropic.claude-3-5-haiku-20241022-v1:0": { inputPer1k: 0.0008, outputPer1k: 0.004 },
+  // Qwen（フルマネージド・サーバーレス）
+  "qwen.qwen3-coder-30b-a3b-v1:0": { inputPer1k: 0.00015, outputPer1k: 0.0006 },
 };
 
 /** 料金表に存在しないモデルに適用する保守的なフォールバック単価（高め＝安全側） */
